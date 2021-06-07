@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23355f;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score-board {
+    border: 3px solid white;
+    width:  200px;
+    margin: 20px auto;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: rgb(185, 14, 14);
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.choice:active {
+    border: solid gold;
+}
+.choice:hover {
+    cursor: pointer; 
+    transform: scale(1.1); 
+    transition: .5s ease-in-out;
+    border-width: 5px;
+    border-color: rgb(185, 14, 14);
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.green-glow {
+    border: 5px solid rgb(9, 141, 9);
+    box-shadow: 0 0 10px rgb(10, 170, 10);
+}
+
+.red-glow {
+    border: 5px solid rgb(122, 23, 23);
+    box-shadow: 0 0 10px rgb(163, 21, 21);
+}
+
+.grey-glow {
+    border: 5px solid rgb(205, 206, 205);
+    box-shadow: 0 0 10px rgb(212, 210, 210);
+}
